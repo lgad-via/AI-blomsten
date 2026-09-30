@@ -1,0 +1,2 @@
+Upload index.html, word.html, laerermanual.pdf, plakat.png og AI-blomsten-Windows.zip samt mappen manual-pages med alle 12 billeder til dit GitHub-repository. Bevar mappenavnet manual-pages. Alle filer ligger ved siden af index.html. Erstat eksisterende filer med samme navn.
+Lærermanualens bogviser viser forsiden alene og derefter opslag med to sider. På mobil vises én side ad gangen. Brug knapper, piletaster eller swipe. Forstør giver større tekst. Den originale PDF kan stadig åbnes eller downloades.
