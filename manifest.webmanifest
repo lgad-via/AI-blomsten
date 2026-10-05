@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "AI-blomsten",
+  "short_name": "AI-blomsten",
+  "lang": "da",
+  "start_url": "./index.html#forside",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#176a9a",
+  "icons": [
+    {
+      "src": "icons/flower-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/flower-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
