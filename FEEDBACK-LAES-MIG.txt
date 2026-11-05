@@ -1,0 +1,8 @@
+Feedback gemmes i Supabase og vises i adminpanelet.
+1. Åbn Supabase SQL Editor for det eksisterende projekt.
+2. Kør SUPABASE-FEEDBACK-OPSAETNING.sql én gang.
+3. Upload alle filer i denne ZIP til GitHub Pages.
+4. Åbn adminpanelet via tre klik på VIA-logoet, indtast din adminadgangskode, og tryk Vis statistik.
+5. Feedback vises nedenunder statistikken med rød markering af ulæste beskeder.
+OBS: Ingen mail sendes, og gamle Web3Forms-beskeder importeres ikke.
+Sikkerhed: Den eksisterende PIN-baserede adgang anvendes. Brug en stærk adgangskode; en kort PIN er ikke tilstrækkelig beskyttelse mod gæt.

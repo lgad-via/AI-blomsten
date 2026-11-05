@@ -1,0 +1,9 @@
+FEJLRETTELSE: Supabase afviste DELETE uden WHERE.
+
+1. Åbn Supabase SQL Editor.
+2. Kør hele SUPABASE-RYD-DATA-OPSAETNING.sql fra denne ZIP igen.
+3. Prøv derefter at rydde statistik eller feedback.
+
+Det er ikke nødvendigt at uploade hjemmesidens filer til GitHub for denne SQL-rettelse, hvis du allerede bruger den seneste version.
+
+Sletning er permanent og kræver admin-koden.
