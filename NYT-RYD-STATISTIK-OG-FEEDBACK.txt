@@ -1,0 +1,12 @@
+AI-BLOMSTEN – NYE ADMINFUNKTIONER
+
+1. Upload alle filer fra denne ZIP til GitHub Pages som normalt.
+2. Åbn Supabase > SQL Editor, indsæt hele indholdet af SUPABASE-RYD-DATA-OPSAETNING.sql og kør det én gang.
+3. Genindlæs hjemmesiden (Ctrl+F5).
+4. Åbn administrationen med tre klik på VIA-logoet.
+5. Indtast den firecifrede kode i de fire felter.
+6. Brug 'Ryd al statistik' eller 'Ryd al feedback'. Indtast koden igen for at bekræfte.
+
+VIGTIGT: Sletning er permanent. 'Ryd al statistik' sletter kun statistik, og 'Ryd al feedback' sletter kun feedback.
+Sletningsknapperne virker først, når SQL-filen er kørt i det samme Supabase-projekt.
+Der er ikke foretaget ændringer direkte på GitHub eller i Supabase.
