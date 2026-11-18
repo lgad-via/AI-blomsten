@@ -1,0 +1,7 @@
+(()=>{'use strict';
+function setup(group){const boxes=[...group.querySelectorAll('input')];const hidden=document.getElementById(group.dataset.target);const sync=()=>{hidden.value=boxes.map(x=>x.value).join('');hidden.dispatchEvent(new Event('input',{bubbles:true}));};
+boxes.forEach((box,i)=>{box.addEventListener('input',()=>{const digits=box.value.replace(/\D/g,'');if(digits.length>1){digits.slice(0,boxes.length-i).split('').forEach((d,j)=>boxes[i+j].value=d);boxes[Math.min(i+digits.length,boxes.length-1)].focus()}else{box.value=digits;if(digits&&i<boxes.length-1)boxes[i+1].focus()}sync()});box.addEventListener('keydown',e=>{if(e.key==='Backspace'&&!box.value&&i>0){boxes[i-1].focus();boxes[i-1].value='';sync()}if(e.key==='ArrowLeft'&&i>0)boxes[i-1].focus();if(e.key==='ArrowRight'&&i<3)boxes[i+1].focus()});box.addEventListener('paste',e=>{const digits=(e.clipboardData?.getData('text')||'').replace(/\D/g,'').slice(0,4);if(!digits)return;e.preventDefault();boxes.forEach((b,j)=>b.value=digits[j]||'');sync();boxes[Math.min(digits.length,3)].focus()})});
+group.clear=()=>{boxes.forEach(x=>x.value='');sync()};group.focusFirst=()=>boxes[0].focus();sync();}
+document.querySelectorAll('.admin-pin-group').forEach(setup);
+window.aiPinFields={clear(id){document.querySelector(`.admin-pin-group[data-target="${id}"]`)?.clear()},focus(id){document.querySelector(`.admin-pin-group[data-target="${id}"]`)?.focusFirst()}};
+})();

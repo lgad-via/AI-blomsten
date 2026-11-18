@@ -1,0 +1,1 @@
+Upload alle filer og mapper fra denne pakke til samme mappe på GitHub. Behold mapperne icons og manual-pages. Webappen installeres fra HTTPS-adressen efter upload.
